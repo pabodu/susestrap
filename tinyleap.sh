@@ -28,10 +28,10 @@ fi
 mkdir -p $target/dev
 mkdir -p $target/sys
 mkdir -p $target/proc
-mount -t devtmpfs devtmpfs $target/dev
-mount -t devpts devpts $target/dev/pts
-mount -t sysfs sysfs $target/sys
-mount -t proc proc $target/proc
+#mount -t devtmpfs devtmpfs $target/dev
+#mount -t devpts devpts $target/dev/pts
+#mount -t sysfs sysfs $target/sys
+#mount -t proc proc $target/proc
 
 echo ">>> Enabling repositories"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/non-oss"         "default-repo-non-oss"
@@ -47,7 +47,7 @@ echo ">>> Adding locks"
 zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
 echo ">>> Installing base patterns"
-zypper --non-interactive -R $target install -t pattern base
+zypper --non-interactive -R $target install patterns-base-minimal_base
 
 PARAMS=(
     kernel-default kernel-firmware-all purge-kernels-service
@@ -56,11 +56,10 @@ PARAMS=(
     xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
 
     tmux vim
-
-    NetworkManager chrony
+    iproute2 glibc-locale-base
 )
 echo ">>> Installing base packages"
-zypper --non-interactive -R $target install ${PARAMS[@]}
+zypper -R $target install ${PARAMS[@]}
 
 echo ">>> Setting up hostname"
 echo $2 > $target/etc/hostname
@@ -76,4 +75,5 @@ echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
 echo ">>> It's also advised for you to set your timezone"
 echo ">>> It's also advised for you to install and configure a bootloader"
+echo ">>> It's also advised for you to set root password"
 echo ">>> Thank you for using SUSEstrap!"
