@@ -56,7 +56,7 @@ PARAMS=(
     xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
 
     tmux vim
-    iproute2 glibc-locale-base udhcp net-tools-deprecated curl
+    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
