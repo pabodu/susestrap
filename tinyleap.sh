@@ -56,7 +56,7 @@ PARAMS=(
     xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
 
     tmux vim
-    iproute2 glibc-locale-base
+    iproute2 glibc-locale-base udhcp net-tools-deprecated curl
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
@@ -70,6 +70,13 @@ echo "LANG=en_US.UTF-8" > $target/etc/locale.conf
 
 echo ">>> Setting up vconsole.conf: KEYMAP=us"
 echo "KEYMAP=us" > $target/etc/vconsole.conf
+
+echo ">>> Setting up /etc/fstab"
+echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
+echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
+echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
+#echo "" >> $target/etc/fstab
+
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
