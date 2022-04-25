@@ -1,0 +1,5 @@
+zypper ar -f -c http://download.opensuse.org/tumbleweed/repo/oss repo-oss
+zypper ar -f -c http://download.opensuse.org/tumbleweed/repo/non-oss repo-non-oss
+zypper ar -f -c http://download.opensuse.org/tumbleweed/repo/debug repo-debug
+zypper ar -f -c http://download.opensuse.org/update/tumbleweed/ repo-update
+
