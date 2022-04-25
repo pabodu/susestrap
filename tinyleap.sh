@@ -77,7 +77,6 @@ echo "proc             /proc            proc        defaults         0   0" >> $
 echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
 #echo "" >> $target/etc/fstab
 
-
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
 echo ">>> It's also advised for you to set your timezone"
