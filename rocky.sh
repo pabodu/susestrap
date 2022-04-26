@@ -47,20 +47,16 @@ zypper -R $target ref
 #zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
 #echo ">>> Installing base packages"
-zypper --non-interactive -R $target install basesystem passwd less vim-minimal grub2 kernel dhcp-client e2fsprogs
+zypper --non-interactive -R $target install basesystem
+
 #zypper --non-interactive -R $target install patterns-base-minimal_base
 
 PARAMS=(
-    kernel-default kernel-firmware-all purge-kernels-service
-    grub2 grub2-i386-pc grub2-x86_64-efi
+    passwd less vim-minimal grub2 kernel dhcp-client e2fsprogs microdnf
 
-    xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
-
-    tmux vim
-    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
 )
-#echo ">>> Installing base packages"
-#zypper -R $target install ${PARAMS[@]}
+echo ">>> Installing base packages"
+zypper -R $target install ${PARAMS[@]}
 
 #echo ">>> Setting up hostname"
 #echo $2 > $target/etc/hostname
@@ -72,11 +68,11 @@ PARAMS=(
 #echo ">>> Setting up vconsole.conf: KEYMAP=us"
 #echo "KEYMAP=us" > $target/etc/vconsole.conf
 
-#echo ">>> Setting up /etc/fstab"
-#echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
-#echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
-#echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
-#echo "" >> $target/etc/fstab
+echo ">>> Setting up /etc/fstab"
+echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
+echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
+echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
+echo "" >> $target/etc/fstab
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
