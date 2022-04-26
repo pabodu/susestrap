@@ -28,18 +28,19 @@ fi
 mkdir -p $target/dev
 mkdir -p $target/sys
 mkdir -p $target/proc
-mount -t devtmpfs devtmpfs $target/dev
-mount -t devpts devpts $target/dev/pts
-mount -t sysfs sysfs $target/sys
-mount -t proc proc $target/proc
+#mount -t devtmpfs devtmpfs $target/dev
+#mount -t devpts devpts $target/dev/pts
+#mount -t sysfs sysfs $target/sys
+#mount -t proc proc $target/proc
 
 echo ">>> Enabling repositories"
-zypper -R $target addrepo --refresh -p 90 --disable "http://dl.google.com/linux/chrome/rpm/stable/x86_64"      "google-chrome"
-zypper -R $target addrepo --refresh -p 90 --disable "https://download.nvidia.com/opensuse/tumbleweed"          "nvidia"
-zypper -R $target addrepo --refresh -p 90 "http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed" "packman"
+#zypper -R $target addrepo --refresh -p 90 --disable "http://dl.google.com/linux/chrome/rpm/stable/x86_64"      "google-chrome"
+#zypper -R $target addrepo --refresh -p 90 --disable "https://download.nvidia.com/opensuse/tumbleweed"          "nvidia"
+#zypper -R $target addrepo --refresh -p 90 "http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed" "packman"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/tumbleweed/repo/non-oss"                     "default-repo-non-oss"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/tumbleweed/repo/oss"                         "default-repo-oss"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/update/tumbleweed"                           "default-repo-update"
+#zypper -R $target addrepo --refresh "http://download.opensuse.org/debug/tumbleweed/repo/oss"                           "default-repo-debug"
 zypper lr -Pu
 
 echo ">>> Refreshing repositories"
@@ -49,58 +50,24 @@ echo ">>> Adding locks"
 zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
 echo ">>> Installing base patterns"
-zypper --non-interactive -R $target install -t pattern base enhanced_base console 32bit devel_basis devel_python3 x11 basic_desktop
+zypper -R $target install dracut
+zypper -R $target install patterns-base-minimal_base
 
 PARAMS=(
     ##### kernel and bootloader
-    kernel-default kernel-default-devel kernel-devel kernel-firmware-all purge-kernels-service
+    kernel-default kernel-firmware-all purge-kernels-service
     grub2 grub2-i386-pc grub2-x86_64-efi
 
     ##### filesystem utilities
     xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
 
     ##### general CLI tools
-    fish tmux iotop htop unrar unzip p7zip aria2 rsync neofetch youtube-dl
-
-    ##### bluetooth, networking, audio, polkit
-    bluez blueman NetworkManager NetworkManager-applet polkit polkit-gnome
-    pipewire pipewire-modules pipewire-pulseaudio pavucontrol
-
-    ##### openGL, vulkan and X11 utilities
-    vulkan-tools Mesa-demo-x arandr xdotool xwd xev lxterminal
-
-    ##### fonts
-    ubuntu-fonts google-roboto-fonts google-roboto-mono-fonts google-roboto-slab-fonts
-
-    ##### additional services
-    chrony
-    # openssh nginx
-
-    ##### development tools
-    ack vim emacs-x11 git Catch2-devel colordiff cmake libvterm0 libvterm-devel
-    clang go1.16 rust sbcl clojure nodejs16 npm16 nasm yasm gdb entr python38-black
-
-    ##### virtualisation
-    # virt-manager libvirt libvirt-daemon-qemu qemu-kvm
-
-    ##### docker
-    # docker python3-docker-compose
-
-    ##### i3wm and desktop utilities
-    i3 rofi redshift feh brightnessctl
-
-    ##### X11 software
-    MozillaFirefox pidgin vlc geeqie transmission-gtk gimp inkscape okular
-
-    ##### chromium/chrome - repository must be enabled for chrome
-    # chromium chromium-plugin-widevinecdm chromium-ffmpeg-extra
-    # google-chrome-stable
-
-    ##### gaming
-    # gzdoom wine wine-mono wine-gecko winetricks lutris retroarch steam steamtricks
+    tmux vim
+    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
 )
+
 echo ">>> Installing base packages"
-zypper --non-interactive -R $target install ${PARAMS[@]}
+zypper -R $target install ${PARAMS[@]}
 
 echo ">>> Setting up hostname"
 echo $2 > $target/etc/hostname
@@ -112,8 +79,15 @@ echo "LANG=en_US.UTF-8" > $target/etc/locale.conf
 echo ">>> Setting up vconsole.conf: KEYMAP=us"
 echo "KEYMAP=us" > $target/etc/vconsole.conf
 
+echo ">>> Setting up /etc/fstab"
+echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
+echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
+echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
+#echo "" >> $target/etc/fstab
+
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
 echo ">>> It's also advised for you to set your timezone"
 echo ">>> It's also advised for you to install and configure a bootloader"
+echo ">>> It's also advised for you to set root password"
 echo ">>> Thank you for using SUSEstrap!"
