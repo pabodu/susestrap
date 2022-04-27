@@ -57,6 +57,7 @@ PARAMS=(
 
     less vim
     iproute2 dhcp-client curl iputils
+    dnf yum microdnf
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
