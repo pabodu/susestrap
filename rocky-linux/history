@@ -1,0 +1,981 @@
+2022-04-27 12:02:16|radd   |rocky|https://download.rockylinux.org/pub/rocky/8.5/BaseOS/x86_64/os/|
+2022-04-27 12:02:20|command|root@pbd.lan|'zypper' '--non-interactive' '-R' '/home/root/images/rocky' 'install' 'basesystem'|
+# 2022-04-27 12:02:21 ncurses-base-6.1-9.20180224.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/n/ncurses-base-6.1-9.20180224.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:21|install|ncurses-base|6.1-9.20180224.el8|noarch||rocky|0cebff3a1b36bbe42576ae64e5519749c6e88f5f3b11de061a5992e1fd95acb1|
+# 2022-04-27 12:02:21 rocky-gpg-keys-8.5-3.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/rocky-gpg-keys-8.5-3.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:21|install|rocky-gpg-keys|8.5-3.el8|noarch||rocky|848ebfe60cddad0955111e840881a1b0d3a3578cc774684e3d11dcca5966d15d|
+# 2022-04-27 12:02:22 tzdata-2022a-1.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/t/tzdata-2022a-1.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:22|install|tzdata|2022a-1.el8|noarch||rocky|5fc8f5a5441ce6956a6e821dc04e8ce6fa67ee762745143326f644e32cb44384|
+# 2022-04-27 12:02:22 rocky-release-8.5-3.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/rocky-release-8.5-3.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:22|install|rocky-release|8.5-3.el8|noarch||rocky|2752f4841596765ac2c053ba36bec7608d0d9f3bc9a857da86e080896821cdb8|
+# 2022-04-27 12:02:22 rocky-repos-8.5-3.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/rocky-repos-8.5-3.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:22|install|rocky-repos|8.5-3.el8|noarch||rocky|40eb0c19a4e5350a67c225ce083fc2e69398f22575dc745e99940149468d30c1|
+# 2022-04-27 12:02:23 setup-2.12.2-6.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/setup-2.12.2-6.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:23|install|setup|2.12.2-6.el8|noarch||rocky|c8120de8165ef1fa3665d09a0f41aecd9fcb25a857af5d62a1c008ba32814d71|
+# 2022-04-27 12:02:24 filesystem-3.8-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/filesystem-3.8-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:24|install|filesystem|3.8-6.el8|x86_64||rocky|a620c8dc9acec25088fa83a1061bbda6d391dd1aab36b9eed75144d5d4caf8d7|
+# 2022-04-27 12:02:24 basesystem-11-5.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/b/basesystem-11-5.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:24|install|basesystem|11-5.el8|noarch|root@pbd.lan|rocky|4bcb501bf3759efe4a6acb3313d90852205e2536760cbcdba74be356847960b2|
+# 2022-04-27 12:02:24 bash-4.4.20-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/b/bash-4.4.20-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:24|install|bash|4.4.20-2.el8|x86_64||rocky|f83a42b6397a9a928a592aaae15f3a6c669e6e75d90050e113c05fb655535c2d|
+# 2022-04-27 12:02:31 glibc-all-langpacks-2.28-164.el8_5.3.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/glibc-all-langpacks-2.28-164.el8_5.3.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# error: No exec() called after fork() in lua scriptlet
+# 
+2022-04-27 12:02:31|install|glibc-all-langpacks|2.28-164.el8_5.3|x86_64||rocky|691162aa15b354ec47a60084eebc8e1576b75ffe361affe773f091c051a9140b|
+# 2022-04-27 12:02:32 glibc-2.28-164.el8_5.3.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/glibc-2.28-164.el8_5.3.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:32|install|glibc|2.28-164.el8_5.3|x86_64||rocky|af6edb7ae53bc2648b26507a420fc80c4332c4fd3b137419f56906c685b71ee0|
+# 2022-04-27 12:02:32 libsepol-2.9-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libsepol-2.9-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# /bin/sh: error while loading shared libraries: libtinfo.so.6: cannot open shared object file: No such file or directory
+# warning: %post(libsepol-2.9-3.el8.x86_64) scriptlet failed, exit status 127
+# 
+2022-04-27 12:02:32|install|libsepol|2.9-3.el8|x86_64||rocky|cc017c27e60d9f6d83db9d6828cad89b804d9f50476d88b23e0cd7a69b58f107|
+# 2022-04-27 12:02:33 pcre2-10.32-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/pcre2-10.32-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:33|install|pcre2|10.32-2.el8|x86_64||rocky|57392559400107d802849db3b9a4fc5d820263338fb674911bc85806c09ec288|
+# 2022-04-27 12:02:33 libselinux-2.9-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libselinux-2.9-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:33|install|libselinux|2.9-5.el8|x86_64||rocky|1adba0de5ffc3867220990bcabcf7cc7d5b52409464aaecaaaf475054cd7f474|
+# 2022-04-27 12:02:34 glibc-common-2.28-164.el8_5.3.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/glibc-common-2.28-164.el8_5.3.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# /bin/sh: error while loading shared libraries: libtinfo.so.6: cannot open shared object file: No such file or directory
+# warning: %transfiletriggerin(glibc-common-2.28-164.el8_5.3.x86_64) scriptlet failed, exit status 127
+# 
+2022-04-27 12:02:34|install|glibc-common|2.28-164.el8_5.3|x86_64||rocky|f61f2126f4ae9fe7d9ace7cd1d6da2b58ca741cbece0191856d4a60e861e94c6|
+# 2022-04-27 12:02:34 ncurses-libs-6.1-9.20180224.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/n/ncurses-libs-6.1-9.20180224.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:34|install|ncurses-libs|6.1-9.20180224.el8|x86_64||rocky|f127eaa596a0e10a031502ffbe4fec8c80c649c645dca6dbb73109f1e4989df8|
+2022-04-27 12:02:34|patch  |RLSA-2021:4358|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:02:34|patch  |RLSA-2022:896|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:02:34|patch  |RLBA-2021:4003|2|noarch|rocky|none|bugfix|not-needed|applied|
+2022-04-27 12:02:41|command|root@pbd.lan|'zypper' '-R' '/home/root/images/rocky' 'install' 'passwd' 'less' 'vim-minimal' 'grub2' 'kernel' 'dhcp-client' 'e2fsprogs' 'microdnf'|
+# 2022-04-27 12:02:42 brotli-1.0.6-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/b/brotli-1.0.6-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:42|install|brotli|1.0.6-3.el8|x86_64||rocky|f846cb5edaec93436789fe3316a715d5a756aa49c8b40b2fb8f681e7aecbaa75|
+# 2022-04-27 12:02:42 bzip2-libs-1.0.6-26.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/b/bzip2-libs-1.0.6-26.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:42|install|bzip2-libs|1.0.6-26.el8|x86_64||rocky|82de353f1e91b781f8be63652a6cf8f9c8adc46ad07a50a5beab369fea3ecbf2|
+# 2022-04-27 12:02:43 cpio-2.12-10.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/cpio-2.12-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:43|install|cpio|2.12-10.el8|x86_64||rocky|e13bf9c859fdd2bb9b3327caa5ae6fceae2d38be64603b339a3d187909ce2233|
+# 2022-04-27 12:02:44 crypto-policies-20210617-1.gitc776d3e.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/crypto-policies-20210617-1.gitc776d3e.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:44|install|crypto-policies|20210617-1.gitc776d3e.el8|noarch||rocky|e3b2363ac79f5c551a5bdb0da1a6bf9763fdcc3525fa62b3fd057d094e56d46c|
+# 2022-04-27 12:02:44 dbus-common-1.12.8-14.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dbus-common-1.12.8-14.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:44|install|dbus-common|1:1.12.8-14.el8|noarch||rocky|8c500d8036be9d35fe1439cce7a69571271e03fa2ea13d9a1d3307867a915d41|
+# 2022-04-27 12:02:45 dhcp-common-4.3.6-45.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dhcp-common-4.3.6-45.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:45|install|dhcp-common|12:4.3.6-45.el8|noarch||rocky|425ca05cd9b464637cc1f4467de8be11029df891d3c20205bc9884f3f5f17b64|
+# 2022-04-27 12:02:45 expat-2.2.5-4.el8_5.3.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/expat-2.2.5-4.el8_5.3.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:45|install|expat|2.2.5-4.el8_5.3|x86_64||rocky|1c5153730c23d4be65d4b2b002d1aa89fd49ea8cdf3bd404c1c222854e560221|
+# 2022-04-27 12:02:46 fuse-libs-2.9.7-12.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/fuse-libs-2.9.7-12.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:46|install|fuse-libs|2.9.7-12.el8|x86_64||rocky|85b23406fb64b2a7f22f1731d7b636bbe217e822eefd408ecf6da5f966d6fa57|
+# 2022-04-27 12:02:46 gmp-6.1.2-10.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gmp-6.1.2-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:46|install|gmp|1:6.1.2-10.el8|x86_64||rocky|9d85101052864ffa596fe1bd1f2d6fe1349f28a912d4bbe2fe9333d39144734d|
+# 2022-04-27 12:02:47 grub2-common-2.02-106.el8.0.2.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-common-2.02-106.el8.0.2.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:47|install|grub2-common|1:2.02-106.el8.0.2|noarch||rocky|9ba830913b54d82285e55abd0e2db634e1c8ede2b5f1d8585e1a2ee9c08182b9|
+# 2022-04-27 12:02:48 hardlink-1.3-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/h/hardlink-1.3-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:48|install|hardlink|1:1.3-6.el8|x86_64||rocky|27f5ee0936f790c632cb9e3a2e77279921b5933182e15002081380df5e7866be|
+# 2022-04-27 12:02:48 ipcalc-0.2.4-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/i/ipcalc-0.2.4-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:48|install|ipcalc|0.2.4-4.el8|x86_64||rocky|850ee6e1ed955a3ada21629c5c27f44dddec37d75eea1024d0779a0e08ce30bd|
+# 2022-04-27 12:02:49 json-c-0.13.1-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/j/json-c-0.13.1-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:49|install|json-c|0.13.1-2.el8|x86_64||rocky|495f51b14e26a4393df37172a5f2abb813454bbf80d60c0702f5f2437b0ec055|
+# 2022-04-27 12:02:49 kbd-legacy-2.0.4-10.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kbd-legacy-2.0.4-10.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:49|install|kbd-legacy|2.0.4-10.el8|noarch||rocky|8755001b3bfd1da28a12b58de1b11b6ae3d65ed1587af157c3b323483780b5c7|
+# 2022-04-27 12:02:50 kbd-misc-2.0.4-10.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kbd-misc-2.0.4-10.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:50|install|kbd-misc|2.0.4-10.el8|noarch||rocky|86627f600911656471922da1edbb0480e469edc97148a32283974bbcef3be07c|
+# 2022-04-27 12:02:51 keyutils-libs-1.5.10-9.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/keyutils-libs-1.5.10-9.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:51|install|keyutils-libs|1.5.10-9.el8|x86_64||rocky|f44103f68ed2718427d03edb4a0ebdf187ca12bcb13024b9b88a7e7f802ba95c|
+# 2022-04-27 12:02:51 less-530-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/less-530-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:51|install|less|530-1.el8|x86_64|root@pbd.lan|rocky|dc7b5da317728c6dcf542a070544a56b95fdaaaa07faa538f95aafa15fcf583b|
+# 2022-04-27 12:02:52 libattr-2.4.48-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libattr-2.4.48-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:52|install|libattr|2.4.48-3.el8|x86_64||rocky|3bc621ae0504bf85123bc6ed826c1d0ca9f524e30b0000da931ea76cdcf9ab7c|
+# 2022-04-27 12:02:52 libcap-2.26-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libcap-2.26-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:52|install|libcap|2.26-5.el8|x86_64||rocky|cc34596559c9118d8f2e3d91720bd0171a39e7f3958f59c5fa212386e9f04dfc|
+# 2022-04-27 12:02:53 libcap-ng-0.7.11-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libcap-ng-0.7.11-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:53|install|libcap-ng|0.7.11-1.el8|x86_64||rocky|761a00cbdad22fc3d308ce6e49aa3b3909cd2a8b93794da53ea74344a280cde5|
+# 2022-04-27 12:02:53 libcom_err-1.45.6-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libcom_err-1.45.6-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:53|install|libcom_err|1.45.6-2.el8|x86_64||rocky|283019991740f7cd8d41725ba6e2a703eb11a42163a4cb770f46036efb2de609|
+# 2022-04-27 12:02:54 libffi-3.1-22.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libffi-3.1-22.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:54|install|libffi|3.1-22.el8|x86_64||rocky|2f353e0557132932da3e979ac8abe17e763579be9872394186002148f840bd3e|
+# 2022-04-27 12:02:54 libgcc-8.5.0-4.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libgcc-8.5.0-4.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:54|install|libgcc|8.5.0-4.el8_5|x86_64||rocky|ab911cc2bf6f6536b32b3df2edfcb5bbf45a8f0f9ee7d7482bdfd02b42ba52d6|
+# 2022-04-27 12:02:55 libgpg-error-1.31-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libgpg-error-1.31-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:55|install|libgpg-error|1.31-1.el8|x86_64||rocky|2bde4100ef033c41c0eaedfe4c33560bda625b838f2ad2c073d4420039399bdf|
+# 2022-04-27 12:02:55 libmnl-1.0.4-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libmnl-1.0.4-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:55|install|libmnl|1.0.4-6.el8|x86_64||rocky|f508772ee34c4cbfb373df1122e5270611fb1a6a0f63b1c6fdbc7cf74303e4b3|
+# 2022-04-27 12:02:56 libnghttp2-1.33.0-3.el8_3.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libnghttp2-1.33.0-3.el8_3.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:56|install|libnghttp2|1.33.0-3.el8_3.1|x86_64||rocky|4a890e3f3c76faec98ac34935a4bd5c79de22ddda79b4d4884729a999f507557|
+# 2022-04-27 12:02:56 libseccomp-2.5.1-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libseccomp-2.5.1-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:56|install|libseccomp|2.5.1-1.el8|x86_64||rocky|2e01a08c81cdb3bfab51e0fd0b8169116a529fe241e412b1a44fcd04b1f0ee28|
+# 2022-04-27 12:02:57 libsigsegv-2.11-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libsigsegv-2.11-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:57|install|libsigsegv|2.11-5.el8|x86_64||rocky|c822032759307cd42191a8b3ddebb4e883cc2bca051c1e629a6d233ca8594eb1|
+# 2022-04-27 12:02:57 libsmartcols-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libsmartcols-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:57|install|libsmartcols|2.32.1-28.el8|x86_64||rocky|b7a2ae5d2d03a28fcd3f880d399225d91935f0f5d9e18ce663ba8654ada0cdc6|
+# 2022-04-27 12:02:57 libssh-config-0.9.4-3.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libssh-config-0.9.4-3.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:57|install|libssh-config|0.9.4-3.el8|noarch||rocky|cd9235af7f4e353b4a946975b1fa6c30c1e3952d6ba2744cda79a65f0b4c3572|
+# 2022-04-27 12:02:58 libtasn1-4.13-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libtasn1-4.13-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:58|install|libtasn1|4.13-3.el8|x86_64||rocky|06a19a362ca4792b8dc8caac9aeefa5d5db1568b017b09a915e9386bda492991|
+# 2022-04-27 12:02:59 libuuid-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libuuid-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:59|install|libuuid|2.32.1-28.el8|x86_64||rocky|71e68d6b3d6efa1459440ae9a259f89ad9b9c7849a7627b959c4c813f826aa14|
+# 2022-04-27 12:02:59 libverto-0.3.0-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libverto-0.3.0-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:59|install|libverto|0.3.0-5.el8|x86_64||rocky|5e832df5cfd78233b837330c3a6233cecb13b4917820bb0af3069c4b4d9e0217|
+# 2022-04-27 12:02:59 libxcrypt-4.1.1-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libxcrypt-4.1.1-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:02:59|install|libxcrypt|4.1.1-6.el8|x86_64||rocky|da47347fe8c12a83da4b3dc141396172f82cde14530b7746b2c0882651f1a468|
+# 2022-04-27 12:03:00 libyaml-0.1.7-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libyaml-0.1.7-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:00|install|libyaml|0.1.7-5.el8|x86_64||rocky|c60b190f8badf1c786779c841dd762f85de6ae78ba867805e78742d6bc20f42e|
+# 2022-04-27 12:03:00 libzstd-1.4.4-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libzstd-1.4.4-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:00|install|libzstd|1.4.4-1.el8|x86_64||rocky|c3e950878a53d2e6743af8338cf5f0b1afb053034c9eee5ea6797e352d72eca0|
+# 2022-04-27 12:03:19 linux-firmware-20210702-104.gitd79c2677.el8_5.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/linux-firmware-20210702-104.gitd79c2677.el8_5.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:19|install|linux-firmware|20210702-104.gitd79c2677.el8_5|noarch||rocky|16f6eabd02c348cabafa5e8ecb458eb50c7d0584fa4fe76bf1b1df5f11a84d67|
+# 2022-04-27 12:03:20 lua-libs-5.3.4-12.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/lua-libs-5.3.4-12.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:20|install|lua-libs|5.3.4-12.el8|x86_64||rocky|62661a4dd553c29e9200d6319490be62d969c4f4620b9f2134a26652c394fcf7|
+# 2022-04-27 12:03:21 lz4-libs-1.8.3-3.el8_4.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/lz4-libs-1.8.3-3.el8_4.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:21|install|lz4-libs|1.8.3-3.el8_4|x86_64||rocky|cf76cb56e26c49ceed4d164973aaf69406111ecb9f93e15c4ee700522a0a9757|
+# 2022-04-27 12:03:21 memstrack-0.1.11-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/m/memstrack-0.1.11-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:21|install|memstrack|0.1.11-1.el8|x86_64||rocky|ff4000a477f60c16282f4d087a21eb069b21f1779e0d5affbe5d2ec02f9c44b3|
+# 2022-04-27 12:03:21 ncurses-6.1-9.20180224.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/n/ncurses-6.1-9.20180224.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:21|install|ncurses|6.1-9.20180224.el8|x86_64||rocky|01e479a8932454ca746744cbf6dcf006e48ff702773014a690ee9e56f9a6cf5f|
+# 2022-04-27 12:03:22 npth-1.5-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/n/npth-1.5-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:22|install|npth|1.5-4.el8|x86_64||rocky|19536a4a6baa5e9f4e945d2e990326efc3e1905ccf1e2cefc9f924da53e0780a|
+# 2022-04-27 12:03:22 pcre-8.42-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/pcre-8.42-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:22|install|pcre|8.42-6.el8|x86_64||rocky|0c64dc4099b1af3af95760d573660c792e6df7a68eb5f45f7fdd5b1f5d2879fa|
+# 2022-04-27 12:03:23 popt-1.18-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/popt-1.18-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:23|install|popt|1.18-1.el8|x86_64||rocky|5d98fd70ff26cbe70d7aad9284c670b45eba929720af926195951259d7f32484|
+# 2022-04-27 12:03:23 publicsuffix-list-dafsa-20180723-1.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/publicsuffix-list-dafsa-20180723-1.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:23|install|publicsuffix-list-dafsa|20180723-1.el8|noarch||rocky|cf31f0385b77c1d4a786e46f54068663a916669345249abd7bb341fd9db572f2|
+# 2022-04-27 12:03:24 which-2.21-16.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/w/which-2.21-16.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:24|install|which|2.21-16.el8|x86_64||rocky|592c5465a712cf62b92d3d21365cb25eb047d02e8c5f5f800ac27e43512d94c5|
+# 2022-04-27 12:03:24 xz-libs-5.2.4-3.el8.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/x/xz-libs-5.2.4-3.el8.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:24|install|xz-libs|5.2.4-3.el8.1|x86_64||rocky|f538573fcd79c7c2c8332bb285e6ae7035307621c04d2491e00eec2a93fb9fbf|
+# 2022-04-27 12:03:25 zlib-1.2.11-17.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/z/zlib-1.2.11-17.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:25|install|zlib|1.2.11-17.el8|x86_64||rocky|fe7fda4fa84e69cb577bd9b3a8a33736c511d2dd3d526d865d30bce5abbe2fb6|
+# 2022-04-27 12:03:25 mpfr-3.1.6-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/m/mpfr-3.1.6-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:25|install|mpfr|3.1.6-1.el8|x86_64||rocky|64294d87f40c5e7ac7db7d3d7d4b80b7de6a8b9a8ebd4efca104fbb558fbcb94|
+# 2022-04-27 12:03:26 grub2-pc-modules-2.02-106.el8.0.2.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-pc-modules-2.02-106.el8.0.2.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:26|install|grub2-pc-modules|1:2.02-106.el8.0.2|noarch||rocky|34cffe5df296b9490f9f5f03908c73f210f4c2f26f6c891863d854fa2ad65838|
+# 2022-04-27 12:03:27 libacl-2.2.53-1.el8.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libacl-2.2.53-1.el8.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:27|install|libacl|2.2.53-1.el8.1|x86_64||rocky|395c522ea07e388a4a553e2c0133c7ec105c8b9107ce8fb547e8a2b8d1d2454b|
+# 2022-04-27 12:03:27 audit-libs-3.0-0.17.20191104git1c2f876.el8.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/a/audit-libs-3.0-0.17.20191104git1c2f876.el8.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:27|install|audit-libs|3.0-0.17.20191104git1c2f876.el8.1|x86_64||rocky|382598d3282f97acb199397adc449c409fbfd375e24e10602bb50ba13121d9c8|
+# 2022-04-27 12:03:28 libss-1.45.6-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libss-1.45.6-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:28|install|libss|1.45.6-2.el8|x86_64||rocky|85ac512e16a2f430cd6323faabbbfcd4849f10f5c9d1707b2027086997fa0bf2|
+# 2022-04-27 12:03:29 e2fsprogs-libs-1.45.6-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/e2fsprogs-libs-1.45.6-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:29|install|e2fsprogs-libs|1.45.6-2.el8|x86_64||rocky|3025f0cb01299b274fa1c7f85d37fee7dc5f219ff7d87aa35fe6f7793f2b6fa3|
+# 2022-04-27 12:03:29 p11-kit-0.23.22-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/p11-kit-0.23.22-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:29|install|p11-kit|0.23.22-1.el8|x86_64||rocky|9f5dc45c3d292f4de8d942344546c66a5cca10d5a87676855d0cd12c11f1f72d|
+# 2022-04-27 12:03:30 libstdc++-8.5.0-4.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libstdc++-8.5.0-4.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:30|install|libstdc++|8.5.0-4.el8_5|x86_64||rocky|30ead24b28536b64a80d2978f5b6e942d421baef0f64288c08e82cd7ffd56944|
+# 2022-04-27 12:03:31 libksba-1.3.5-7.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libksba-1.3.5-7.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:31|install|libksba|1.3.5-7.el8|x86_64||rocky|81e49c3650edf23f7ed35445bd87999bb676b6e55b4516ced87ab9da9bc4cd6a|
+# 2022-04-27 12:03:32 libgcrypt-1.8.5-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libgcrypt-1.8.5-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:32|install|libgcrypt|1.8.5-6.el8|x86_64||rocky|119e47dab1357f9afbf80f8c3ef09b4d5c615a7ec707080d9070c1d51f72a41d|
+# 2022-04-27 12:03:32 libassuan-2.5.1-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libassuan-2.5.1-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:32|install|libassuan|2.5.1-3.el8|x86_64||rocky|f26df2cab08be6307c29bbab15218f88941848e5b141dde4e9cb1ce0d928371c|
+# 2022-04-27 12:03:33 chkconfig-1.19.1-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/chkconfig-1.19.1-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:33|install|chkconfig|1.19.1-1.el8|x86_64||rocky|effd7e19baa0b24202b93ffa280ebd988f85b6d4defe02dc65741cf796fe2ef9|
+# 2022-04-27 12:03:33 sqlite-libs-3.26.0-15.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/sqlite-libs-3.26.0-15.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:33|install|sqlite-libs|3.26.0-15.el8|x86_64||rocky|33d18ae2a33bc894bfa7a04bfe403dd1cb9ddc93bbb86c5f97a8cbdbee1b4820|
+# 2022-04-27 12:03:34 pigz-2.4-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/pigz-2.4-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:34|install|pigz|2.4-4.el8|x86_64||rocky|2de6c9c49c29bb2bb0b0851e1e05c3607576c7708cbbc607ddcb8aa4636c4aa4|
+# 2022-04-27 12:03:34 libxml2-2.9.7-12.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libxml2-2.9.7-12.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:34|install|libxml2|2.9.7-12.el8_5|x86_64||rocky|5501b57865b463fa9d2bcd30d2b6c492554fda003d771535f09e6a13c56b35a1|
+# 2022-04-27 12:03:35 libpng-1.6.34-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libpng-1.6.34-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:35|install|libpng|2:1.6.34-5.el8|x86_64||rocky|7adc30f7a2cf65e3e100fe1ee79df5aac2ffff94230e8479659d539ef705cc66|
+# 2022-04-27 12:03:36 info-6.5-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/i/info-6.5-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:36|install|info|6.5-6.el8|x86_64||rocky|6cf9553a12401f11467bddbd3a946ba3cfbcc15b01a59df41a61b0ea6846b189|
+# 2022-04-27 12:03:36 file-libs-5.33-20.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/file-libs-5.33-20.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:36|install|file-libs|5.33-20.el8|x86_64||rocky|76edea60c2f44a910fbaad0f4705b0116a361d3042570696ffa1f6d06f735657|
+# 2022-04-27 12:03:37 elfutils-libelf-0.185-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/elfutils-libelf-0.185-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:37|install|elfutils-libelf|0.185-1.el8|x86_64||rocky|5bec2a5aa4f204053c0eaa1ca2acebf53018db6fcddfb7038b83ff64bda85e84|
+# 2022-04-27 12:03:37 vim-minimal-8.0.1763-16.el8_5.12.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/v/vim-minimal-8.0.1763-16.el8_5.12.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:37|install|vim-minimal|2:8.0.1763-16.el8_5.12|x86_64|root@pbd.lan|rocky|67c562571f9a138051eb94e4d2ecaeddc9064f00fb6120a3ca14f590948b0060|
+# 2022-04-27 12:03:38 acl-2.2.53-1.el8.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/a/acl-2.2.53-1.el8.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:38|install|acl|2.2.53-1.el8.1|x86_64||rocky|bcfbb0db9434dffeb34c3ae46b6ef5b8e36da9bfe6efcabe34d98288d0fb252d|
+# 2022-04-27 12:03:38 libsemanage-2.9-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libsemanage-2.9-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:38|install|libsemanage|2.9-6.el8|x86_64||rocky|984dd8997bb5f2be7b960c0699cc38c01648233740317c0c405ceaf77ad539e6|
+# 2022-04-27 12:03:39 p11-kit-trust-0.23.22-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/p11-kit-trust-0.23.22-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:39|install|p11-kit-trust|0.23.22-1.el8|x86_64||rocky|050416bf341c01cacc9b6f5e815261ca96ea2fefdb8463238779665bb55a5704|
+# 2022-04-27 12:03:39 freetype-2.9.1-4.el8_3.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/freetype-2.9.1-4.el8_3.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:39|install|freetype|2.9.1-4.el8_3.1|x86_64||rocky|0de8dc5a9aab9bb81e5b45260aa7d3f5430c1ff7152451d69d8900829c432b94|
+# 2022-04-27 12:03:40 sed-4.5-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/sed-4.5-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:40|install|sed|4.5-2.el8|x86_64||rocky|7bdd5c71d08c7adcb6ad4ebe75eb0d27cc5d8a54bc6d3636d139d08588d9a817|
+# 2022-04-27 12:03:40 readline-7.0-10.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/readline-7.0-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:40|install|readline|7.0-10.el8|x86_64||rocky|dec3360421313908f8c67f0781dc0bf48660bebfb25f7d629eb2172ac4382e46|
+# 2022-04-27 12:03:41 nettle-3.4.1-7.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/n/nettle-3.4.1-7.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:41|install|nettle|3.4.1-7.el8|x86_64||rocky|1c462fc46745eb337edf14bc05b508d7cc5cf109c15d8ec0981ba29b3fba779e|
+# 2022-04-27 12:03:42 libunistring-0.9.9-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libunistring-0.9.9-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:42|install|libunistring|0.9.9-3.el8|x86_64||rocky|89202bab5d105ed5c917959f84fda4c8a4d8ee9bd027099f716034e1ed30a103|
+# 2022-04-27 12:03:42 libgomp-8.5.0-4.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libgomp-8.5.0-4.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:42|install|libgomp|8.5.0-4.el8_5|x86_64||rocky|dd4a9cdd44da891f08eae2ec3976ee9d2a14eaa522e94e85402909ef499578df|
+# 2022-04-27 12:03:43 grep-3.1-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grep-3.1-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:43|install|grep|3.1-6.el8|x86_64||rocky|b5966deb1a0e7caa6a53e69732b2bb4ae15665aed7a3012c303ce7594c1852e4|
+# 2022-04-27 12:03:44 findutils-4.6.0-20.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/findutils-4.6.0-20.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:44|install|findutils|1:4.6.0-20.el8|x86_64||rocky|d77e40e572e53c0d89a2aea9cbc7015b89529e0e1e6be509eb7a34ccce4a585d|
+# 2022-04-27 12:03:44 diffutils-3.6-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/diffutils-3.6-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:44|install|diffutils|3.6-6.el8|x86_64||rocky|a1b4592d6a8f9c88ed8cc427f053779177a16439b93535179b569031adc87788|
+# 2022-04-27 12:03:45 coreutils-common-8.30-12.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/coreutils-common-8.30-12.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:45|install|coreutils-common|8.30-12.el8|x86_64||rocky|5123912d558612b179d91500a4d322f9d2714b9bd7dc7ce38c5b3a18d203cf43|
+# 2022-04-27 12:03:46 file-5.33-20.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/f/file-5.33-20.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:46|install|file|5.33-20.el8|x86_64||rocky|b3ff816812aea81833f929288cde10b34175b80b0f05cbc3280eb15625731305|
+# 2022-04-27 12:03:46 libbpf-0.4.0-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libbpf-0.4.0-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:46|install|libbpf|0.4.0-1.el8|x86_64||rocky|28b0bf49d6c23d031ad17ec5ade7640bbde625634e02e604102fec408772653e|
+# 2022-04-27 12:03:47 gawk-4.2.1-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gawk-4.2.1-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# warning: %transfiletriggerin(info-6.5-6.el8.x86_64) scriptlet failed, exit status 2
+# 
+2022-04-27 12:03:47|install|gawk|4.2.1-2.el8|x86_64||rocky|488ce2196dc316e24b1a0c395f0d53d58c9bf4951ae96be702bc97c8c7c416af|
+# 2022-04-27 12:03:48 libidn2-2.2.0-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libidn2-2.2.0-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:48|install|libidn2|2.2.0-1.el8|x86_64||rocky|ea3af5771feed5c6e8372db9ab809acb23b7851dfb4936cf9b0ac1cddd9eb6c2|
+# 2022-04-27 12:03:49 xz-5.2.4-3.el8.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/x/xz-5.2.4-3.el8.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:49|install|xz|5.2.4-3.el8.1|x86_64||rocky|c08e75745e3e351e99c135fccfec83ccaa2b687ac8cfe3fb2ddc909bbdb42a49|
+# 2022-04-27 12:03:50 coreutils-8.30-12.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/coreutils-8.30-12.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:50|install|coreutils|8.30-12.el8|x86_64||rocky|9b65fbd5e3e9b67e172fb76ae97b2d80948199b8614f8cd1169652e029fca8a0|
+# 2022-04-27 12:03:51 ca-certificates-2021.2.50-80.0.el8_4.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/ca-certificates-2021.2.50-80.0.el8_4.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:51|install|ca-certificates|2021.2.50-80.0.el8_4|noarch||rocky|2d8952e51019dd669b572c6d97da0abdbb30d20b292406e51465c436eb14d136|
+# 2022-04-27 12:03:52 openssl-libs-1.1.1k-6.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/o/openssl-libs-1.1.1k-6.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:52|install|openssl-libs|1:1.1.1k-6.el8_5|x86_64||rocky|8f4e76a68b7384e8a1d7f9a796bd5709b797435ddc02d79de74cbdb2796e6ee7|
+# 2022-04-27 12:03:52 openssl-1.1.1k-6.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/o/openssl-1.1.1k-6.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:52|install|openssl|1:1.1.1k-6.el8_5|x86_64||rocky|80bf55f554905f96f7f2c00b7d13834671a44843a5100fc6d15ff21071cdb8c0|
+# 2022-04-27 12:03:53 openssl-pkcs11-0.4.10-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/o/openssl-pkcs11-0.4.10-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:53|install|openssl-pkcs11|0.4.10-2.el8|x86_64||rocky|22c10f2160b0de3f3e14bcc113a2a213168c7aa33941c8c40aed08856eb104c5|
+# 2022-04-27 12:03:54 libpsl-0.20.2-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libpsl-0.20.2-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:54|install|libpsl|0.20.2-6.el8|x86_64||rocky|959ed630f56f3d83a87a857e9d3e6f5b835bbed6081bf304a8a5929ca4f7c34d|
+# 2022-04-27 12:03:54 trousers-lib-0.3.15-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/t/trousers-lib-0.3.15-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:54|install|trousers-lib|0.3.15-1.el8|x86_64||rocky|c50f3d36f6be357210617fd2069888b74eb518e3f0e142056b40c3ba7ce5f3b8|
+# 2022-04-27 12:03:56 shadow-utils-4.6-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/shadow-utils-4.6-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:56|install|shadow-utils|2:4.6-14.el8|x86_64||rocky|23df0717a7a679c4736aecdc8e106b3f4853e31075c332798640a6c5301a1d66|
+# 2022-04-27 12:03:56 libdb-5.3.28-42.el8_4.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libdb-5.3.28-42.el8_4.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:56|install|libdb|5.3.28-42.el8_4|x86_64||rocky|e120f803a572ad17c97a147a445b277ab4da0c8dc3055d8177e2e4a5d5c21443|
+# 2022-04-27 12:03:57 libblkid-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libblkid-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:57|install|libblkid|2.32.1-28.el8|x86_64||rocky|de2355a3ca83c4f7ddc02c738afd4d2fcd8f88599807e0bab16d42636325703c|
+# 2022-04-27 12:03:57 libarchive-3.3.3-3.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libarchive-3.3.3-3.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:57|install|libarchive|3.3.3-3.el8_5|x86_64||rocky|3d5aa00c6aca065c1c7760c07e39100c6919decc77a232baab16df8a5e0070e2|
+# 2022-04-27 12:03:58 krb5-libs-1.18.2-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/krb5-libs-1.18.2-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:58|install|krb5-libs|1.18.2-14.el8|x86_64||rocky|1269e26b528b4761aacdfe6fb2d9a3626b83b9766a60a5ec2b4d662f2e49b15a|
+# 2022-04-27 12:03:58 kmod-libs-25-18.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kmod-libs-25-18.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:58|install|kmod-libs|25-18.el8|x86_64||rocky|b9702c1babfa3debe6b1c1770d15fc9e918ff326a30299504c53d5c42e2b21c8|
+# 2022-04-27 12:03:59 kmod-25-18.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kmod-25-18.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:03:59|install|kmod|25-18.el8|x86_64||rocky|427238de42cf851c1aa6c5c253cb123d4fd054e9ea1d76f375298fbcb77120e4|
+# 2022-04-27 12:04:00 gzip-1.9-12.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gzip-1.9-12.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:00|install|gzip|1.9-12.el8|x86_64||rocky|d0ac81485ff4b26cbefb834746255de3c0a6b9523a0226308ed25ffaff9c9769|
+# 2022-04-27 12:04:01 libutempter-1.1.6-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libutempter-1.1.6-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:01|install|libutempter|1.1.6-14.el8|x86_64||rocky|fd98df2f8335a4de9129caefc4b2a8ff08d3f8fd88b7e99241196a1f070a2278|
+# 2022-04-27 12:04:01 libdb-utils-5.3.28-42.el8_4.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libdb-utils-5.3.28-42.el8_4.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:01|install|libdb-utils|5.3.28-42.el8_4|x86_64||rocky|8dd3d399f5155f38d32d28f267aadcbb6cf82de9f3f31748bb0bb046e8535b74|
+# 2022-04-27 12:04:02 iproute-5.12.0-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/i/iproute-5.12.0-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:02|install|iproute|5.12.0-4.el8|x86_64||rocky|13582ebf77a8ad6fd84b36b4d3fe1439d62aef5a2234262d29abef2af12502ae|
+# 2022-04-27 12:04:02 libmount-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libmount-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:02|install|libmount|2.32.1-28.el8|x86_64||rocky|3af6507af034dc8089fd2dfd0ae32ed1a01e1648744acc7e0b85ec5b1f3a668c|
+# 2022-04-27 12:04:03 libfdisk-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libfdisk-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:03|install|libfdisk|2.32.1-28.el8|x86_64||rocky|9ec2f2551e2c6fc356251eae40e42284bf2d88d2089dc19c792aa3c2ef3ebcc5|
+# 2022-04-27 12:04:04 e2fsprogs-1.45.6-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/e2fsprogs-1.45.6-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:04|install|e2fsprogs|1.45.6-2.el8|x86_64|root@pbd.lan|rocky|c20bc711085e535314c5276dbef12ad3c1491401d16d1a2fb6315fbaadea4f35|
+# 2022-04-27 12:04:05 libtirpc-1.1.4-5.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libtirpc-1.1.4-5.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:05|install|libtirpc|1.1.4-5.el8|x86_64||rocky|f3078ae81098ab1ba894e1b2c075396e3d38711f1b6de180eefa92e58e82a44e|
+# 2022-04-27 12:04:05 libssh-0.9.4-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libssh-0.9.4-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:05|install|libssh|0.9.4-3.el8|x86_64||rocky|18e68ddb2bca1e188b76b487396225e0ead6e4b09818f81cf3d077c4be60cfe3|
+# 2022-04-27 12:04:06 cyrus-sasl-lib-2.1.27-6.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/cyrus-sasl-lib-2.1.27-6.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:06|install|cyrus-sasl-lib|2.1.27-6.el8_5|x86_64||rocky|b1a98c3128e57243d2ce7212ced1d8676d4196feac16079e6335413a0b57ca41|
+# 2022-04-27 12:04:07 bind-export-libs-9.11.26-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/b/bind-export-libs-9.11.26-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:07|install|bind-export-libs|32:9.11.26-6.el8|x86_64||rocky|0b93e1157b7cde3b4e6289a789a4b966a827cc04f558185d234b15cf5e8d8dbc|
+# 2022-04-27 12:04:07 cracklib-2.9.6-15.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/cracklib-2.9.6-15.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:07|install|cracklib|2.9.6-15.el8|x86_64||rocky|f2da634615a3247eac8a345453f73cd18433bb94508d3c9afeef3bb1db3ef7d3|
+# 2022-04-27 12:04:08 systemd-libs-239-51.el8_5.5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/systemd-libs-239-51.el8_5.5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:08|install|systemd-libs|239-51.el8_5.5|x86_64||rocky|8ed1a9b7cc86c2106951a8a653c8caa50d392df4c2da2b68ffd549e55ed8ea79|
+# 2022-04-27 12:04:09 libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libnsl2-1.2.0-2.20180605git4a062cf.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:09|install|libnsl2|1.2.0-2.20180605git4a062cf.el8|x86_64||rocky|10d2d589a52df626146209a7c64ecc0b0720745a152fa915a748fd204620782b|
+# 2022-04-27 12:04:09 openldap-2.4.46-18.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/o/openldap-2.4.46-18.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:09|install|openldap|2.4.46-18.el8|x86_64||rocky|4ddf1d24486b18daa6b9e2afff10966dc033fba8a08df7714d41d0db5a1f4981|
+# 2022-04-27 12:04:11 cracklib-dicts-2.9.6-15.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/cracklib-dicts-2.9.6-15.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:11|install|cracklib-dicts|2.9.6-15.el8|x86_64||rocky|c6f78471c059939ac54ec47f14ef8efaa228bcfc6d24fcff802ae1bf8986681b|
+# 2022-04-27 12:04:12 procps-ng-3.3.15-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/procps-ng-3.3.15-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:12|install|procps-ng|3.3.15-6.el8|x86_64||rocky|a57c6fe29ff3fbce4f415d2afd0e1e9a3c61e2bef4aadb192453a5dd5a4e15ec|
+# 2022-04-27 12:04:12 libusbx-1.0.23-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libusbx-1.0.23-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:12|install|libusbx|1.0.23-4.el8|x86_64||rocky|86732e3f404203f7874186f7593dbef63fba7f57ad82cce2a1de415e2759e7ed|
+# 2022-04-27 12:04:13 dhcp-libs-4.3.6-45.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dhcp-libs-4.3.6-45.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:13|install|dhcp-libs|12:4.3.6-45.el8|x86_64||rocky|ccdef2a9d35b2434c2b5cb1bc378faa2fdf34f16dbe1c347040171bb4e42ad8c|
+# 2022-04-27 12:04:14 dbus-libs-1.12.8-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dbus-libs-1.12.8-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:14|install|dbus-libs|1:1.12.8-14.el8|x86_64||rocky|286728d83327cd55d26bc82328435ab8342786e88e8a05dfa208c5677b4605d7|
+# 2022-04-27 12:04:14 libcurl-7.61.1-22.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libcurl-7.61.1-22.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:14|install|libcurl|7.61.1-22.el8|x86_64||rocky|7cc35e59072c0f21b2f8f7c4d8769b8b143299bab5438619d0a895ee9be62b8b|
+# 2022-04-27 12:04:15 pam-1.3.1-15.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/pam-1.3.1-15.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:15|install|pam|1.3.1-15.el8|x86_64||rocky|abc379d8c90e155528a74602b39eb4f475c48b924c50e27c31378d7ed425c433|
+# 2022-04-27 12:04:15 libpwquality-1.4.4-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libpwquality-1.4.4-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:15|install|libpwquality|1.4.4-3.el8|x86_64||rocky|222ffec77bfcf3ad9964362dd026a42c68be1a51f7d2c3cf28b43dc4ac45e0ca|
+# 2022-04-27 12:04:16 dbus-tools-1.12.8-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dbus-tools-1.12.8-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:16|install|dbus-tools|1:1.12.8-14.el8|x86_64||rocky|ac881d79d3a0c6d4728a6942ba7bbc9d9e3fa69521f7fc51f24a6948c87cb3b9|
+# 2022-04-27 12:04:17 curl-7.61.1-22.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/curl-7.61.1-22.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:17|install|curl|7.61.1-22.el8|x86_64||rocky|e372199f281feaad685fa855a3c585c381ca5abcbe2d7e5a6dde103f337cb7e2|
+# 2022-04-27 12:04:19 util-linux-2.32.1-28.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/u/util-linux-2.32.1-28.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:19|install|util-linux|2.32.1-28.el8|x86_64||rocky|950b4c996d94f68d17d0c5ad0b1f07fb291529e92bbb6a62e69899f00360ed4d|
+# 2022-04-27 12:04:19 kbd-2.0.4-10.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kbd-2.0.4-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:19|install|kbd|2.0.4-10.el8|x86_64||rocky|b977c7a619b0b6169de05a40808a1b08155cca9978fbb6b413489d564444f42b|
+# 2022-04-27 12:04:21 dbus-daemon-1.12.8-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dbus-daemon-1.12.8-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:21|install|dbus-daemon|1:1.12.8-14.el8|x86_64||rocky|3a487cde971abb859892bf51063b1fa0ba14f96d1b9af36323f0417e13ab1101|
+# 2022-04-27 12:04:21 rpm-libs-4.14.3-19.el8_5.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/rpm-libs-4.14.3-19.el8_5.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:21|install|rpm-libs|4.14.3-19.el8_5.2|x86_64||rocky|9ee67f5606ea57e4d82579d31f318f09e9840577895f41c11060732ac0e49566|
+# 2022-04-27 12:04:22 rpm-4.14.3-19.el8_5.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/r/rpm-4.14.3-19.el8_5.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:22|install|rpm|4.14.3-19.el8_5.2|x86_64||rocky|9507ab3a23969ab081bbad53e43da10c124bf4cd4107a50371506e3fafd0f11f|
+# 2022-04-27 12:04:23 elfutils-default-yama-scope-0.185-1.el8.noarch.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/elfutils-default-yama-scope-0.185-1.el8.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:23|install|elfutils-default-yama-scope|0.185-1.el8|noarch||rocky|494cb9c9a0cbb041e9e61a4d87ef568ceec24b3e8daae391015ebb976922fd91|
+# 2022-04-27 12:04:23 elfutils-libs-0.185-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/elfutils-libs-0.185-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:23|install|elfutils-libs|0.185-1.el8|x86_64||rocky|e07487a822dc63d2278ec4990e0705fe6c2bd2fac4c0eddeac87ea2d6d7be81b|
+# 2022-04-27 12:04:24 libsolv-0.7.19-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libsolv-0.7.19-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:24|install|libsolv|0.7.19-1.el8|x86_64||rocky|508a5ffb6de51afca2840ce6b5dc6a46a6a1808da9e64e772277d09735d3ef56|
+# 2022-04-27 12:04:25 gnutls-3.6.16-4.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gnutls-3.6.16-4.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:25|install|gnutls|3.6.16-4.el8|x86_64||rocky|1519db18e00905e0020dc7182d715a2ed430253c425493df0aea9baed6b09674|
+# 2022-04-27 12:04:25 systemd-pam-239-51.el8_5.5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/systemd-pam-239-51.el8_5.5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:25|install|systemd-pam|239-51.el8_5.5|x86_64||rocky|f4e6747ca97ecac53a559010d9711485101eba39d2208e0883525e51d307ead1|
+# 2022-04-27 12:04:26 cryptsetup-libs-2.3.3-4.el8_5.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/c/cryptsetup-libs-2.3.3-4.el8_5.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:26|install|cryptsetup-libs|2.3.3-4.el8_5.1|x86_64||rocky|d6392509d52ec05989453675d2ec6273697f1ca91b506ce425ed72937070675c|
+# 2022-04-27 12:04:29 systemd-239-51.el8_5.5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/systemd-239-51.el8_5.5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:29|install|systemd|239-51.el8_5.5|x86_64||rocky|cf4a1cea73cfe16b5d55a1655e36d63615480ce71d5725c1b69d8464945e2a51|
+# 2022-04-27 12:04:29 device-mapper-1.02.177-11.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/device-mapper-1.02.177-11.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:29|install|device-mapper|8:1.02.177-11.el8_5|x86_64||rocky|7a37bc160d92387995638a3ff86a9d03cc4929108c5121744df449f4388512bc|
+# 2022-04-27 12:04:30 device-mapper-libs-1.02.177-11.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/device-mapper-libs-1.02.177-11.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:30|install|device-mapper-libs|8:1.02.177-11.el8_5|x86_64||rocky|21027eca0bf5b70110668e120da523dc255c1e5811d798207cf8a78dded3b267|
+# 2022-04-27 12:04:30 elfutils-debuginfod-client-0.185-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/e/elfutils-debuginfod-client-0.185-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:30|install|elfutils-debuginfod-client|0.185-1.el8|x86_64||rocky|9bc20a6842faa67bb9c6065ace7555cc98b060e9374a00a5f037f41de7587b07|
+# 2022-04-27 12:04:31 kpartx-0.8.4-17.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kpartx-0.8.4-17.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:31|install|kpartx|0.8.4-17.el8|x86_64||rocky|b0ab5a64fb89f2fd647a4a10dcd3535d44e903c1af526778a13d43be99411bed|
+# 2022-04-27 12:04:31 dbus-1.12.8-14.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dbus-1.12.8-14.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:31|install|dbus|1:1.12.8-14.el8|x86_64||rocky|7eb1ac910c2bc2b9daff09e1aa9a78b119ba2d43c76fe3457272e346bd9bbdca|
+# 2022-04-27 12:04:32 trousers-0.3.15-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/t/trousers-0.3.15-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:32|install|trousers|0.3.15-1.el8|x86_64||rocky|8f1492620ac321ff0378faa79995d7f354700cf33519301a3125e70a590f2c35|
+# 2022-04-27 12:04:34 systemd-udev-239-51.el8_5.5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/systemd-udev-239-51.el8_5.5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# Failed to open /dev/urandom: No such file or directory
+# 
+2022-04-27 12:04:34|install|systemd-udev|239-51.el8_5.5|x86_64||rocky|eb40437ae3c4f0a9938d3686f976d876fc51f253c67517b9a6bd94bc552ac419|
+# 2022-04-27 12:04:34 libkcapi-1.2.0-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libkcapi-1.2.0-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:34|install|libkcapi|1.2.0-2.el8|x86_64||rocky|4132f4295574f5e253182356ca865f319830192f02463230b88eea53ca01e863|
+# 2022-04-27 12:04:35 iputils-20180629-7.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/i/iputils-20180629-7.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:35|install|iputils|20180629-7.el8|x86_64||rocky|df95a8e0356c48e9699e559a28b5226f071fe5eabd6e6cf64f90fdda9dd00674|
+# 2022-04-27 12:04:37 gnupg2-2.2.20-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gnupg2-2.2.20-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:37|install|gnupg2|2.2.20-2.el8|x86_64||rocky|2139aba1f597f369f3b37aa7a125d995a5c98054baaf86868b9488c065ba198e|
+# 2022-04-27 12:04:37 gnupg2-smime-2.2.20-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gnupg2-smime-2.2.20-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:37|install|gnupg2-smime|2.2.20-2.el8|x86_64||rocky|f756ac3740cde01e9317642ea045e5d257e2b73d72ef920a182ad10cdfa4d5f8|
+# 2022-04-27 12:04:39 glib2-2.56.4-156.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/glib2-2.56.4-156.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:04:39|install|glib2|2.56.4-156.el8|x86_64||rocky|d0daebe71291aff02c68df450d46a6cec72a5ad652ca0d24531746d75bc0d8fa|
+# 2022-04-27 12:05:05 shared-mime-info-1.9-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/s/shared-mime-info-1.9-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:05|install|shared-mime-info|1.9-3.el8|x86_64||rocky|ce73a789eb8c10f5a859c4712c95eb6a03ddc4c50e4bbe6c449033c7d9d9b46b|
+# 2022-04-27 12:05:05 os-prober-1.74-9.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/o/os-prober-1.74-9.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:05|install|os-prober|1.74-9.el8|x86_64||rocky|6fbe666c544e2e3abd3fa5e4e77c8e5e486d7e60f7df881f20c3aeb47114f820|
+# 2022-04-27 12:05:06 libkcapi-hmaccalc-1.2.0-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libkcapi-hmaccalc-1.2.0-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:06|install|libkcapi-hmaccalc|1.2.0-2.el8|x86_64||rocky|d3b39fc9d0daf55a3db203b4cfba9794b6e280db190a30de4760fef86b827e74|
+# 2022-04-27 12:05:07 dhcp-client-4.3.6-45.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dhcp-client-4.3.6-45.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:07|install|dhcp-client|12:4.3.6-45.el8|x86_64|root@pbd.lan|rocky|55a9bbd0d3a1617b7f8df242838803fdcf4c764fad7b556c806844e66f718aea|
+# 2022-04-27 12:05:07 gpgme-1.13.1-9.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gpgme-1.13.1-9.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:07|install|gpgme|1.13.1-9.el8|x86_64||rocky|cd76e58f9c8521e216bded1dae0fef5af5e321238609cfc1ec93ce22f38b9ad9|
+# 2022-04-27 12:05:08 libuser-0.62-23.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libuser-0.62-23.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:08|install|libuser|0.62-23.el8|x86_64||rocky|c5d2e6101e43ff26b30c571f4904925825b54ff1a227d6a983e1679c5b614f30|
+# 2022-04-27 12:05:09 libmodulemd-2.13.0-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libmodulemd-2.13.0-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:09|install|libmodulemd|2.13.0-1.el8|x86_64||rocky|0298da65634ed07cd6641dc0b56a63e437597cc5632a71645a00b8cec036a7de|
+# 2022-04-27 12:05:09 libcroco-0.6.12-4.el8_2.1.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libcroco-0.6.12-4.el8_2.1.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:09|install|libcroco|0.6.12-4.el8_2.1|x86_64||rocky|2278152c40bd3053c1dbc8dbd00dd59883cd839dcc8c11738bbe26cc520d246f|
+# 2022-04-27 12:05:10 gobject-introspection-1.56.1-1.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gobject-introspection-1.56.1-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:10|install|gobject-introspection|1.56.1-1.el8|x86_64||rocky|8e81c1cc1303ae469b74daa93bc6b87efa3f0e2c3465a5c0cee74548892b6095|
+# 2022-04-27 12:05:11 dracut-049-191.git20210920.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/d/dracut-049-191.git20210920.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:11|install|dracut|049-191.git20210920.el8|x86_64||rocky|bf5fd9b77b6a8bef6d0eb86b2bdacca58c6f1bfaa49e8be8743053d96319f7d2|
+# 2022-04-27 12:05:12 librepo-1.14.0-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/librepo-1.14.0-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:12|install|librepo|1.14.0-2.el8|x86_64||rocky|041097e0128fc749daef90f36d87b6fbc774f9894b0df476f609576d6b53a362|
+# 2022-04-27 12:05:12 passwd-0.80-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/p/passwd-0.80-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:12|install|passwd|0.80-3.el8|x86_64|root@pbd.lan|rocky|7e9b8c8f68311e4a6d51d90e5f610882dc3bd75ad0a05d7235e576c6621d98d9|
+# 2022-04-27 12:05:13 gettext-libs-0.19.8.1-17.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gettext-libs-0.19.8.1-17.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:13|install|gettext-libs|0.19.8.1-17.el8|x86_64||rocky|558bb32c2c9116a5aa14a745462972f0b8769118a6524aca2ab72bbde863b479|
+# 2022-04-27 12:05:13 libpeas-1.22.0-6.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libpeas-1.22.0-6.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:13|install|libpeas|1.22.0-6.el8|x86_64||rocky|c4f394629a502ab8c986f3ab8c0ac6b94d788c23824d25e0068c6fed7e4c969d|
+# 2022-04-27 12:05:18 kernel-core-4.18.0-348.20.1.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kernel-core-4.18.0-348.20.1.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:18|install|kernel-core|4.18.0-348.20.1.el8_5|x86_64||rocky|28f537deed7bea62bb8b782b29bae846a93ed59ebe05f39788a7e932d6b5f449|
+# 2022-04-27 12:05:18 libdnf-0.63.0-3.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/l/libdnf-0.63.0-3.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:18|install|libdnf|0.63.0-3.el8|x86_64||rocky|04d812d7ac5b9c4c1919e3be4d7fbca0cb4a128529a5827132564022b9f7205b|
+# 2022-04-27 12:05:20 gettext-0.19.8.1-17.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/gettext-0.19.8.1-17.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:20|install|gettext|0.19.8.1-17.el8|x86_64||rocky|a797ddfcee732000b4e68ecffd7c50ef7cefe51af92246c01e248ab98c3ae3a7|
+# 2022-04-27 12:05:26 kernel-modules-4.18.0-348.20.1.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kernel-modules-4.18.0-348.20.1.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:26|install|kernel-modules|4.18.0-348.20.1.el8_5|x86_64||rocky|8c83c6b8cca9bc800570adf7560d4d8e3cf438d87c339ca2a83237bd980d75f6|
+# 2022-04-27 12:05:27 microdnf-3.8.0-2.el8.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/m/microdnf-3.8.0-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:27|install|microdnf|3.8.0-2.el8|x86_64|root@pbd.lan|rocky|288566726f311e55eb6b8c7a39d17aed661013737d721c45f7e30f5bc96cf7c3|
+# 2022-04-27 12:05:27 grub2-tools-minimal-2.02-106.el8.0.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-tools-minimal-2.02-106.el8.0.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:27|install|grub2-tools-minimal|1:2.02-106.el8.0.2|x86_64||rocky|c7c4dba0be1b41479095dbf2689fde8c60699541d8fe2278c210b0e4830e65da|
+# 2022-04-27 12:05:29 grub2-tools-2.02-106.el8.0.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-tools-2.02-106.el8.0.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:29|install|grub2-tools|1:2.02-106.el8.0.2|x86_64||rocky|402c1c8430e5e9d5d16aec8d83c3e740fd1d488d2366cceab1980c9fa243661d|
+# 2022-04-27 12:05:30 kernel-4.18.0-348.20.1.el8_5.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/k/kernel-4.18.0-348.20.1.el8_5.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:30|install|kernel|4.18.0-348.20.1.el8_5|x86_64|root@pbd.lan|rocky|aed6f11a0056e537c50f61de85dd3bb5d73eefada20b42aecf6f2f7e9ce3796c|
+# 2022-04-27 12:05:31 grub2-tools-extra-2.02-106.el8.0.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-tools-extra-2.02-106.el8.0.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:31|install|grub2-tools-extra|1:2.02-106.el8.0.2|x86_64||rocky|504dd34164b7ec588713bf78b0542d06ee1befdee3d498da91b55eab6fa49e69|
+# 2022-04-27 12:05:31 grub2-pc-2.02-106.el8.0.2.x86_64.rpm installed ok
+# Additional rpm output:
+# warning: /home/root/images/rocky/var/cache/zypp/packages/rocky/Packages/g/grub2-pc-2.02-106.el8.0.2.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 6d745a60: NOKEY
+# 
+2022-04-27 12:05:31|install|grub2-pc|1:2.02-106.el8.0.2|x86_64|root@pbd.lan|rocky|0c1e5af5e4c3c44b96f490ad7a677c4bae1c75b3aee4c295284078f8fb22d482|
+2022-04-27 12:05:36|patch  |RLSA-2021:4517|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:370|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:176|2|noarch|rocky|important|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:4511|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:4409|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:825|2|noarch|rocky|important|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:368|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:5226|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:4356|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLBA-2021:3573|2|noarch|rocky|none|bugfix|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLBA-2021:3594|2|noarch|rocky|none|bugfix|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:1065|2|noarch|rocky|important|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:2575|2|noarch|rocky|moderate|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2021:4646|2|noarch|rocky|important|security|not-needed|applied|
+2022-04-27 12:05:36|patch  |RLSA-2022:366|2|noarch|rocky|moderate|security|not-needed|applied|

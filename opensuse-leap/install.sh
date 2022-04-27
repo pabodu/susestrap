@@ -34,29 +34,32 @@ mkdir -p $target/proc
 #mount -t proc proc $target/proc
 
 echo ">>> Enabling repositories"
-zypper -R $target addrepo -G --refresh "https://download.rockylinux.org/pub/rocky/8.5/BaseOS/x86_64/os/"         "rocky"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/oss"             "default-repo-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/oss"                        "default-repo-update-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/non-oss"                    "default-repo-update-non-oss"
-zypper -R $target lr -Pu
+zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/non-oss"         "default-repo-non-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/oss"             "default-repo-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/oss"                        "default-repo-update-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/non-oss"                    "default-repo-update-non-oss"
+zypper lr -Pu
 
 echo ">>> Refreshing repositories"
 zypper -R $target ref
 
-#echo ">>> Adding locks"
-#zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
+echo ">>> Adding locks"
+zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
+echo ">>> Installing base patterns"
+zypper --non-interactive -R $target install patterns-base-minimal_base
+
+#PARAMS=(
+#    purge-kernels-service coreutils grub2 sed
+#    kernel-default kernel-firmware-all
+
+#    xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
+
+#    tmux vim
+#    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
+#)
 #echo ">>> Installing base packages"
-zypper --non-interactive -R $target install basesystem
-
-#zypper --non-interactive -R $target install patterns-base-minimal_base
-
-PARAMS=(
-    passwd less vim-minimal grub2 kernel dhcp-client e2fsprogs microdnf
-
-)
-echo ">>> Installing base packages"
-zypper -R $target install ${PARAMS[@]}
+#zypper -R $target install ${PARAMS[@]}
 
 #echo ">>> Setting up hostname"
 #echo $2 > $target/etc/hostname
@@ -68,11 +71,11 @@ zypper -R $target install ${PARAMS[@]}
 #echo ">>> Setting up vconsole.conf: KEYMAP=us"
 #echo "KEYMAP=us" > $target/etc/vconsole.conf
 
-echo ">>> Setting up /etc/fstab"
-echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
-echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
-echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
-echo "" >> $target/etc/fstab
+#echo ">>> Setting up /etc/fstab"
+#echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
+#echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
+#echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
+#echo "" >> $target/etc/fstab
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
