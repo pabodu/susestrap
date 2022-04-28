@@ -1,0 +1,4 @@
+Root FS: btrfs, ext4
+RPM backend: bdb
+DHCP client: udhcpc
+BLS: no

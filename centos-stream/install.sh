@@ -46,12 +46,26 @@ zypper -R $target ref
 
 echo ">>> Installing base packages"
 zypper --non-interactive -R $target install basesystem
-zypper --non-interactive -R $target install bash
 zypper --non-interactive -R $target install ncurses
 
 PARAMS=(
-    passwd less vim-minimal grub2 kernel dhcp-client e2fsprogs microdnf strace
+    #### Kernel and bootloader
+    kernel grub2
 
+    #### System tools
+    passwd strace
+
+    #### Filesystem utilities
+    e2fsprogs
+
+    #### Console utilities
+    less vim-minimal
+
+    #### Network support
+    dhcp-client
+
+    #### Package namagement
+    microdnf
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}

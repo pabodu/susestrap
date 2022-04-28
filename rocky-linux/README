@@ -1,0 +1,4 @@
+Root FS: ext4
+RPM backend: bdb
+DHCP client: dhcp-client
+BLS: yes

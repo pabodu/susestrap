@@ -1,4 +1,4 @@
 Root FS: btrfs, ext4
-RPM backend: ndb
+RPM backend: bdb
 DHCP client: dhcp-client
-BLS: no
+BLS: yes

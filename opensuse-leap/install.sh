@@ -50,13 +50,22 @@ echo ">>> Installing base patterns"
 zypper --non-interactive -R $target install patterns-base-minimal_base
 
 PARAMS=(
-    kernel-default
-    shadow grub2
+    #### Kernel and bootloader
+    kernel-default grub2
 
+    #### System programs
+    shadow
+
+    #### Filesystems
     btrfsprogs e2fsprogs
 
+    #### Console utilities
     less vim
+
+    #### Networking
     iproute2 udhcp net-tools-deprecated curl iputils
+
+    #### Package management
     zypper
 )
 echo ">>> Installing base packages"

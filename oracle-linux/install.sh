@@ -48,11 +48,24 @@ zypper -R $target ref
 zypper --non-interactive -R $target install basesystem
 
 PARAMS=(
-    kernel-uek
-    #kernel
-    dhcp-client e2fsprogs btrfs-progs dosfstools microdnf tar
+    #### Kernel, bootloader
+    kernel-uek grub2-pc
+    #kernel grub2-pc
+
+    #### System utils
+    passwd
+
+    #### Console utils
     less vim-minimal
-    openssh passwd grub2-pc
+
+    #### Filesystems
+    btrfs-progs e2fsprogs
+
+    #### Networking
+    dhcp-client
+
+    #### Package management
+    microdnf
 )
 
 echo ">>> Installing base packages"

@@ -75,8 +75,8 @@ PARAMS=(
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
 
-#echo ">>> Setting up hostname"
-#echo $2 > $target/etc/hostname
+echo ">>> Setting up hostname"
+echo $2 > $target/etc/hostname
 #echo "127.0.0.1 $2" >> $target/etc/hosts
 
 #echo ">>> Setting up locale.conf: LANG=en_US.UTF-8"
