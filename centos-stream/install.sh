@@ -46,6 +46,7 @@ zypper -R $target ref
 
 echo ">>> Installing base packages"
 zypper --non-interactive -R $target install basesystem
+zypper --non-interactive -R $target install bash
 zypper --non-interactive -R $target install ncurses
 
 PARAMS=(

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+#set -e
 
 if [[ $EUID -ne 0 ]]; then
    echo ">>> You must be root to do this." 1>&2
@@ -34,10 +34,10 @@ mkdir -p $target/proc
 #mount -t proc proc $target/proc
 
 echo ">>> Enabling repositories"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/non-oss"         "default-repo-non-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/non-oss"         "default-repo-non-oss"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/oss"             "default-repo-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/oss"                        "default-repo-update-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/non-oss"                    "default-repo-update-non-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/oss"                        "default-repo-update-oss"
+zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/non-oss"                    "default-repo-update-non-oss"
 zypper -R $target lr -Pu
 
 echo ">>> Refreshing repositories"
@@ -56,8 +56,8 @@ PARAMS=(
     btrfsprogs e2fsprogs
 
     less vim
-    iproute2 dhcp-client curl iputils
-    dnf yum microdnf
+    iproute2 udhcp net-tools-deprecated curl iputils
+    zypper
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}

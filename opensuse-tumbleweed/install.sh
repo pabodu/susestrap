@@ -41,43 +41,49 @@ zypper -R $target addrepo --refresh "http://download.opensuse.org/tumbleweed/rep
 zypper -R $target addrepo --refresh "http://download.opensuse.org/tumbleweed/repo/oss"                         "default-repo-oss"
 zypper -R $target addrepo --refresh "http://download.opensuse.org/update/tumbleweed"                           "default-repo-update"
 #zypper -R $target addrepo --refresh "http://download.opensuse.org/debug/tumbleweed/repo/oss"                           "default-repo-debug"
-zypper lr -Pu
+zypper -R $target lr -Pu
 
 echo ">>> Refreshing repositories"
 zypper -R $target ref
 
-echo ">>> Adding locks"
-zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
+#echo ">>> Adding locks"
+#zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
 echo ">>> Installing base patterns"
-zypper -R $target install dracut
 zypper -R $target install patterns-base-minimal_base
 
 PARAMS=(
     ##### kernel and bootloader
-    kernel-default kernel-firmware-all purge-kernels-service
-    grub2 grub2-i386-pc grub2-x86_64-efi
+    kernel-default grub2
+
+    ##### system utilities
+    procps shadow
 
     ##### filesystem utilities
-    xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
+    btrfsprogs e2fsprogs
 
     ##### general CLI tools
-    tmux vim
-    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
+    less vim
+
+    ##### networking tools
+    iproute2 dhcp-client net-tools-deprecated curl iputils
+
+    ##### package management
+    zypper
 )
 
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
 
-echo ">>> Setting up hostname"
-echo $2 > $target/etc/hostname
-echo "127.0.0.1 $2" >> $target/etc/hosts
+#echo ">>> Setting up hostname"
+#echo $2 > $target/etc/hostname
+#echo "127.0.0.1 $2" >> $target/etc/hosts
 
-echo ">>> Setting up locale.conf: LANG=en_US.UTF-8"
-echo "LANG=en_US.UTF-8" > $target/etc/locale.conf
+#echo ">>> Setting up locale.conf: LANG=en_US.UTF-8"
+#echo "LANG=en_US.UTF-8" > $target/etc/locale.conf
 
-echo ">>> Setting up vconsole.conf: KEYMAP=us"
-echo "KEYMAP=us" > $target/etc/vconsole.conf
+#echo ">>> Setting up vconsole.conf: KEYMAP=us"
+#echo "KEYMAP=us" > $target/etc/vconsole.conf
 
 echo ">>> Setting up /etc/fstab"
 echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
