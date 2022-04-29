@@ -35,10 +35,7 @@ mkdir -p $target/proc
 
 echo ">>> Enabling repositories"
 zypper -R $target addrepo -G --refresh "https://mirror.yandex.ru/openmandriva/rolling/repository/x86_64/main/release/"         "rolling"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/distribution/leap/15.3/repo/oss"             "default-repo-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/oss"                        "default-repo-update-oss"
-#zypper -R $target addrepo --refresh "http://download.opensuse.org/update/leap/15.3/non-oss"                    "default-repo-update-non-oss"
-zypper lr -Pu
+zypper -R $target lr -Pu
 
 echo ">>> Refreshing repositories"
 zypper -R $target ref
@@ -46,18 +43,22 @@ zypper -R $target ref
 #echo ">>> Adding locks"
 #zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
-#echo ">>> Installing base packages"
-zypper --non-interactive -R $target install basesystem-minimal kernel passwd less vim
-#zypper --non-interactive -R $target install patterns-base-minimal_base
+echo ">>> Installing base packages"
+zypper -R $target install filesystem
+zypper -R $target install basesystem-minimal
 
 PARAMS=(
-    kernel-default kernel-firmware-all purge-kernels-service
-    grub2 grub2-i386-pc grub2-x86_64-efi
+    kernel-release-server
 
-    xfsprogs btrfsprogs ntfs-3g ntfsprogs dosfstools exfatprogs e2fsprogs cryptsetup
+    passwd systemd dracut
 
-    tmux vim
-    iproute2 glibc-locale-base udhcp net-tools-deprecated curl iputils
+    btrfs-progs e2fsprogs
+
+    vim
+
+    iproute2 dhcp-client iputils
+
+    dnf
 )
 #echo ">>> Installing base packages"
 #zypper -R $target install ${PARAMS[@]}
@@ -77,6 +78,12 @@ PARAMS=(
 #echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
 #echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
 #echo "" >> $target/etc/fstab
+
+echo ">>> Setting up repositories"
+echo "[om-linux-rolling-baseos]" >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
+echo >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
+echo "baseurl="https://mirror.yandex.ru/openmandriva/rolling/repository/x86_64/main/release/>> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
+echo "gpgcheck=0" >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"

@@ -1,0 +1,5 @@
+[om-linux-rolling-baseos]
+
+baseurl=https://mirror.yandex.ru/openmandriva/rolling/repository/x86_64/main/release/
+gpgcheck=0
+
