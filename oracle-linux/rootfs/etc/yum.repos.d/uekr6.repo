@@ -1,5 +1,0 @@
-[uekr6]
-
-baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/
-gpgcheck=0
-

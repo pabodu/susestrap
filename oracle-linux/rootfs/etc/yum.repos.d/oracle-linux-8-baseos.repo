@@ -1,5 +1,0 @@
-[oracle-linux-8-baseos]
-
-baseurl=https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/
-gpgcheck=0
-
