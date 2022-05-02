@@ -60,8 +60,8 @@ PARAMS=(
 
     dnf
 )
-#echo ">>> Installing base packages"
-#zypper -R $target install ${PARAMS[@]}
+echo ">>> Installing base packages"
+zypper -R $target install ${PARAMS[@]}
 
 #echo ">>> Setting up hostname"
 #echo $2 > $target/etc/hostname
@@ -80,6 +80,7 @@ PARAMS=(
 #echo "" >> $target/etc/fstab
 
 echo ">>> Setting up repositories"
+mkdir $target/etc/yum.repos.d
 echo "[om-linux-rolling-baseos]" >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
 echo >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
 echo "baseurl="https://mirror.yandex.ru/openmandriva/rolling/repository/x86_64/main/release/>> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo

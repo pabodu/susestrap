@@ -1,0 +1,4 @@
+Root FS: btrfs, ext4
+RPM backend: sqlite
+DHCP client: dhcp-client
+BLS: no

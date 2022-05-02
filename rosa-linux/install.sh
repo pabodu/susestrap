@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -e
+set -e
 
 if [[ $EUID -ne 0 ]]; then
    echo ">>> You must be root to do this." 1>&2
@@ -34,8 +34,7 @@ mkdir -p $target/proc
 #mount -t proc proc $target/proc
 
 echo ">>> Enabling repositories"
-zypper -R $target addrepo -G --refresh "https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/"         "oracle-linux-8-baseos"
-zypper -R $target addrepo -G --refresh "https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/"         "UEKR6"
+zypper -R $target addrepo -G --refresh "https://mirror.yandex.ru/rosa/rosa2021.1/repository/x86_64/main/release/"         "rosa2021.1"
 zypper -R $target lr -Pu
 
 echo ">>> Refreshing repositories"
@@ -44,30 +43,29 @@ zypper -R $target ref
 #echo ">>> Adding locks"
 #zypper -R $target addlock "*yast*" "*packagekit*" "*PackageKit*" "*plymouth*" "postfix" "pulseaudio"
 
-#echo ">>> Installing base packages"
-zypper --non-interactive -R $target install basesystem
+echo ">>> Installing base packages"
+zypper -R $target install filesystem
+zypper -R $target install basesystem-minimal
 
 PARAMS=(
     #### Kernel, bootloader
-    kernel-uek grub2-pc grubby
-    #kernel grub2-pc
+    zstd kernel-5.4-generic grub2
 
-    #### System utils
+    #### System
     passwd
 
-    #### Console utils
-    less vim-minimal
-
     #### Filesystems
-    btrfs-progs e2fsprogs
+    btrfs-progs
 
-    #### Networking
-    dhcp-client
+    #### Console
+    vim-minimal
 
-    #### Package management
-    microdnf oracle-release-el8
+    #### Network
+    iproute2
+
+    #### Package mgmt
+    dnf rosa-repos-main rosa-repos-keys
 )
-
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
 
@@ -81,11 +79,11 @@ zypper -R $target install ${PARAMS[@]}
 #echo ">>> Setting up vconsole.conf: KEYMAP=us"
 #echo "KEYMAP=us" > $target/etc/vconsole.conf
 
-echo ">>> Setting up /etc/fstab"
-echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
-echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
-echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
-echo "" >> $target/etc/fstab
+#echo ">>> Setting up /etc/fstab"
+#echo "devpts           /dev/pts         devpts      gid=5,mode=620   0   0" >> $target/etc/fstab
+#echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
+#echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
+#echo "" >> $target/etc/fstab
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
