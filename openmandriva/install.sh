@@ -58,7 +58,7 @@ PARAMS=(
 
     iproute2 dhcp-client iputils
 
-    dnf
+    dnf openmandriva-repos openmandriva-repos-keys
 )
 echo ">>> Installing base packages"
 zypper -R $target install ${PARAMS[@]}
@@ -78,13 +78,6 @@ zypper -R $target install ${PARAMS[@]}
 #echo "proc             /proc            proc        defaults         0   0" >> $target/etc/fstab
 #echo "tmpfs            /dev/shm         tmpfs       nosuid,nodev,noexec 0   0" >> $target/etc/fstab
 #echo "" >> $target/etc/fstab
-
-echo ">>> Setting up repositories"
-mkdir $target/etc/yum.repos.d
-echo "[om-linux-rolling-baseos]" >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
-echo >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
-echo "baseurl="https://mirror.yandex.ru/openmandriva/rolling/repository/x86_64/main/release/>> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
-echo "gpgcheck=0" >> $target/etc/yum.repos.d/om-linux-rolling-baseos.repo
 
 echo ">>> It's advised that you change these settings if necessary"
 echo ">>> It's also advised for you to correctly modify /etc/fstab"
